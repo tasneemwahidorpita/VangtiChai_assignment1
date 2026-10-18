@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="display_padding_bottom">28dp</dimen>
+    <dimen name="display_padding_land_top">16dp</dimen>
+    <dimen name="display_padding_top">28dp</dimen>
+    <dimen name="grid_border_width">2dp</dimen>
+    <dimen name="keypad_button_margin">8dp</dimen>
+    <dimen name="keypad_row_height_landscape">84dp</dimen>
+    <dimen name="keypad_row_height_portrait">96dp</dimen>
+    <dimen name="note_column_padding">16dp</dimen>
+    <dimen name="note_padding_vertical">12dp</dimen>
+    <dimen name="screen_padding">24dp</dimen>
+    <dimen name="text_size_display">48sp</dimen>
+    <dimen name="text_size_keypad_button">40sp</dimen>
+    <dimen name="text_size_note">34sp</dimen>
+</resources>

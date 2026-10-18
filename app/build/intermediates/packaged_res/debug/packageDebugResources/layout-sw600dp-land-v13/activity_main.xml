@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/screen_padding">
+
+    <!-- Top Display Header (Tablet Scaled) -->
+    <TextView
+        android:id="@+id/tvEnteredAmount"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="@dimen/display_padding_land_top"
+        android:paddingBottom="@dimen/display_padding_land_top"
+        android:text="@string/taka_prefix_empty"
+        android:textColor="@color/display_text"
+        android:textSize="@dimen/text_size_display"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Left: Note Breakdown Table Container (2 Columns in Tablet Landscape) -->
+    <LinearLayout
+        android:id="@+id/noteTableContainer"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/note_column_padding"
+        android:paddingEnd="@dimen/screen_padding"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/keypadGrid"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvEnteredAmount">
+
+        <!-- Sub-Column 1: 500, 100, 50, 20 -->
+        <TableLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/tvNote500"
+                    style="@style/NoteTextView"
+                    android:text="@string/note_500_default" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/tvNote100"
+                    style="@style/NoteTextView"
+                    android:text="@string/note_100_default" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/tvNote50"
+                    style="@style/NoteTextView"
+                    android:text="@string/note_50_default" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/tvNote20"
+                    style="@style/NoteTextView"
+                    android:text="@string/note_20_default" />
+            </TableRow>
+        </TableLayout>
+
+        <!-- Sub-Column 2: 10, 5, 2, 1 -->
+        <TableLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/tvNote10"
+                    style="@style/NoteTextView"
+                    android:text="@string/note_10_default" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/tvNote5"
+                    style="@style/NoteTextView"
+                    android:text="@string/note_5_default" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/tvNote2"
+                    style="@style/NoteTextView"
+                    android:text="@string/note_2_default" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/tvNote1"
+                    style="@style/NoteTextView"
+                    android:text="@string/note_1_default" />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+    <!-- Right: Custom Numeric Keypad Grid in Tablet Landscape (4x3 Grid) -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/keypadGrid"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_weight="1.2"
+        app:layout_constraintStart_toEndOf="@id/noteTableContainer"
+        app:layout_constraintTop_toBottomOf="@id/tvEnteredAmount">
+
+        <!-- Row 1: 1 2 3 4 -->
+        <Button
+            android:id="@+id/btn1"
+            style="@style/KeypadButton"
+            android:text="@string/btn_1"
+            app:layout_constraintBottom_toTopOf="@id/btn5"
+            app:layout_constraintEnd_toStartOf="@id/btn2"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="spread" />
+
+        <Button
+            android:id="@+id/btn2"
+            style="@style/KeypadButton"
+            android:text="@string/btn_2"
+            app:layout_constraintBottom_toTopOf="@id/btn6"
+            app:layout_constraintEnd_toStartOf="@id/btn3"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintStart_toEndOf="@id/btn1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn3"
+            style="@style/KeypadButton"
+            android:text="@string/btn_3"
+            app:layout_constraintBottom_toTopOf="@id/btn7"
+            app:layout_constraintEnd_toStartOf="@id/btn4"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintStart_toEndOf="@id/btn2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn4"
+            style="@style/KeypadButton"
+            android:text="@string/btn_4"
+            app:layout_constraintBottom_toTopOf="@id/btn8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintStart_toEndOf="@id/btn3"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Row 2: 5 6 7 8 -->
+        <Button
+            android:id="@+id/btn5"
+            style="@style/KeypadButton"
+            android:text="@string/btn_5"
+            app:layout_constraintBottom_toTopOf="@id/btn9"
+            app:layout_constraintEnd_toStartOf="@id/btn6"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn1" />
+
+        <Button
+            android:id="@+id/btn6"
+            style="@style/KeypadButton"
+            android:text="@string/btn_6"
+            app:layout_constraintBottom_toTopOf="@id/btn0"
+            app:layout_constraintEnd_toStartOf="@id/btn7"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintStart_toEndOf="@id/btn5"
+            app:layout_constraintTop_toBottomOf="@id/btn2" />
+
+        <Button
+            android:id="@+id/btn7"
+            style="@style/KeypadButton"
+            android:text="@string/btn_7"
+            app:layout_constraintBottom_toTopOf="@id/btnClear"
+            app:layout_constraintEnd_toStartOf="@id/btn8"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintStart_toEndOf="@id/btn6"
+            app:layout_constraintTop_toBottomOf="@id/btn3" />
+
+        <Button
+            android:id="@+id/btn8"
+            style="@style/KeypadButton"
+            android:text="@string/btn_8"
+            app:layout_constraintBottom_toTopOf="@id/btnClear"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintStart_toEndOf="@id/btn7"
+            app:layout_constraintTop_toBottomOf="@id/btn4" />
+
+        <!-- Row 3: 9 0 CLEAR -->
+        <Button
+            android:id="@+id/btn9"
+            style="@style/KeypadButton"
+            android:text="@string/btn_9"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/btn0"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn5" />
+
+        <Button
+            android:id="@+id/btn0"
+            style="@style/KeypadButton"
+            android:text="@string/btn_0"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/btnClear"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintStart_toEndOf="@id/btn9"
+            app:layout_constraintTop_toBottomOf="@id/btn6" />
+
+        <Button
+            android:id="@+id/btnClear"
+            style="@style/KeypadButton"
+            android:text="@string/btn_clear"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_weight="2"
+            app:layout_constraintStart_toEndOf="@id/btn0"
+            app:layout_constraintTop_toBottomOf="@id/btn7" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

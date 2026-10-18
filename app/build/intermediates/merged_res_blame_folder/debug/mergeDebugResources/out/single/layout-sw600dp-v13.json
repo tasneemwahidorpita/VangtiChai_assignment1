@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.7\\com.example.vangtichai.app-mergeDebugResources-3:\\layout-sw600dp-v13\\activity_main.xml",
+        "source": "D:\\Android\\Gradle\\daemon\\8.7\\com.example.vangtichai.app-main-6:\\layout-sw600dp\\activity_main.xml"
+    },
+    {
+        "merged": "com.example.vangtichai.app-mergeDebugResources-3:/layout-sw600dp-v13/activity_main.xml",
+        "source": "com.example.vangtichai.app-main-6:/layout-sw600dp/activity_main.xml"
+    }
+]

@@ -1,0 +1,108 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.vangtichai.app-mergeDebugResources-2:/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "D:\\Android\\Gradle\\caches\\transforms-4\\f2eed8b83e94a40d7fbe772ea58d91e8\\transformed\\material-1.11.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13,14,15,16,18,26,27,34,35",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "611,671,741,812,884,942,1000,1109,1550,1606,1965,2028",
+                        "endLines": "10,11,12,13,14,15,17,18,26,27,34,38",
+                        "endColumns": "59,69,70,71,57,57,10,63,55,58,62,10",
+                        "endOffsets": "666,736,807,879,937,995,1104,1168,1601,1660,2023,2195"
+                    }
+                },
+                {
+                    "source": "D:\\Android\\Gradle\\caches\\transforms-4\\2ed6afb1be6019e05b2ac936d0d01b72\\transformed\\appcompat-1.6.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ELITEBOOK\\Assignment1_CSE489\\app\\src\\main\\res\\values-sw600dp\\dimens.xml",
+                    "from": {
+                        "startLines": "8,9,7,-1,-1,-1,-1,-1,-1,3,6,17,12",
+                        "startColumns": "4,4,4,-1,-1,-1,-1,-1,-1,4,4,4,4",
+                        "startOffsets": "314,369,262,-1,-1,-1,-1,-1,-1,126,212,665,473",
+                        "endColumns": "53,55,50,-1,-1,-1,-1,-1,-1,45,48,54,45",
+                        "endOffsets": "363,420,308,-1,-1,-1,-1,-1,-1,167,256,715,514"
+                    },
+                    "to": {
+                        "startLines": "19,20,21,22,23,24,25,28,29,30,31,32,33",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1173,1227,1283,1334,1382,1433,1492,1665,1716,1769,1815,1864,1919",
+                        "endColumns": "53,55,50,47,50,58,57,50,52,45,48,54,45",
+                        "endOffsets": "1222,1278,1329,1377,1428,1487,1545,1711,1764,1810,1859,1914,1960"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Android\\Gradle\\daemon\\8.7\\com.example.vangtichai.app-mergeDebugResources-2:\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "D:\\Android\\Gradle\\caches\\transforms-4\\f2eed8b83e94a40d7fbe772ea58d91e8\\transformed\\material-1.11.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,115,185,256,328,386,444,553,617,673,732,795",
+                        "endLines": "2,3,4,5,6,7,9,10,11,12,13,17",
+                        "endColumns": "59,69,70,71,57,57,10,63,55,58,62,10",
+                        "endOffsets": "110,180,251,323,381,439,548,612,668,727,790,962"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13,14,15,16,18,26,27,34,35",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "611,671,741,812,884,942,1000,1109,1550,1606,1965,2028",
+                        "endLines": "10,11,12,13,14,15,17,18,26,27,34,38",
+                        "endColumns": "59,69,70,71,57,57,10,63,55,58,62,10",
+                        "endOffsets": "666,736,807,879,937,995,1104,1168,1601,1660,2023,2195"
+                    }
+                },
+                {
+                    "source": "D:\\Android\\Gradle\\caches\\transforms-4\\2ed6afb1be6019e05b2ac936d0d01b72\\transformed\\appcompat-1.6.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ELITEBOOK\\Assignment1_CSE489\\app\\src\\main\\res\\values-sw600dp\\dimens.xml",
+                    "from": {
+                        "startLines": "8,9,7,21,20,19,18,14,13,3,6,17,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "314,369,262,892,840,780,721,574,520,126,212,665,473",
+                        "endColumns": "53,55,50,47,50,58,57,50,52,45,48,54,45",
+                        "endOffsets": "363,420,308,935,886,834,774,620,568,167,256,715,514"
+                    },
+                    "to": {
+                        "startLines": "19,20,21,22,23,24,25,28,29,30,31,32,33",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1173,1227,1283,1334,1382,1433,1492,1665,1716,1769,1815,1864,1919",
+                        "endColumns": "53,55,50,47,50,58,57,50,52,45,48,54,45",
+                        "endOffsets": "1222,1278,1329,1377,1428,1487,1545,1711,1764,1810,1859,1914,1960"
+                    }
+                }
+            ]
+        }
+    ]
+}

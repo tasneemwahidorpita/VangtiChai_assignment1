@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.7\\com.example.vangtichai.app-debug-4:\\layout_activity_main.xml.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.7\\com.example.vangtichai.app-main-6:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.example.vangtichai.app-debug-4:/layout-sw600dp_activity_main.xml.flat",
+        "source": "com.example.vangtichai.app-main-6:/layout-sw600dp/activity_main.xml"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.7\\com.example.vangtichai.app-debug-4:\\layout-sw600dp-land_activity_main.xml.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.7\\com.example.vangtichai.app-main-6:\\layout-sw600dp-land\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.7\\com.example.vangtichai.app-debug-4:\\drawable_ic_launcher.xml.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.7\\com.example.vangtichai.app-main-6:\\drawable\\ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.vangtichai.app-debug-4:/layout-sw600dp-land_activity_main.xml.flat",
+        "source": "com.example.vangtichai.app-main-6:/layout-sw600dp-land/activity_main.xml"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.7\\com.example.vangtichai.app-debug-4:\\drawable_ic_launcher_round.xml.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.7\\com.example.vangtichai.app-main-6:\\drawable\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.7\\com.example.vangtichai.app-debug-4:\\layout-land_activity_main.xml.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.7\\com.example.vangtichai.app-main-6:\\layout-land\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Android\\Gradle\\daemon\\8.7\\com.example.vangtichai.app-debug-4:\\layout-sw600dp_activity_main.xml.flat",
+        "source": "D:\\Android\\Gradle\\daemon\\8.7\\com.example.vangtichai.app-main-6:\\layout-sw600dp\\activity_main.xml"
+    }
+]

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_background">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="button_bg">#E0E0E0</color>
+    <color name="button_bg_pressed">#BDBDBD</color>
+    <color name="button_text">#000000</color>
+    <color name="display_text">#000000</color>
+    <color name="grid_border">#CCCCCC</color>
+    <color name="note_text">#000000</color>
+    <color name="teal_accent">#008577</color>
+    <color name="teal_primary">#00796B</color>
+    <color name="teal_primary_dark">#004D40</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="display_padding_bottom">24dp</dimen>
+    <dimen name="display_padding_land_top">12dp</dimen>
+    <dimen name="display_padding_top">24dp</dimen>
+    <dimen name="grid_border_width">1dp</dimen>
+    <dimen name="keypad_button_margin">4dp</dimen>
+    <dimen name="keypad_row_height_landscape">56dp</dimen>
+    <dimen name="keypad_row_height_portrait">64dp</dimen>
+    <dimen name="note_column_padding">8dp</dimen>
+    <dimen name="note_padding_vertical">6dp</dimen>
+    <dimen name="screen_padding">16dp</dimen>
+    <dimen name="text_size_display">28sp</dimen>
+    <dimen name="text_size_keypad_button">22sp</dimen>
+    <dimen name="text_size_note">20sp</dimen>
+    <string name="app_name">VangtiChai</string>
+    <string name="btn_0">0</string>
+    <string name="btn_1">1</string>
+    <string name="btn_2">2</string>
+    <string name="btn_3">3</string>
+    <string name="btn_4">4</string>
+    <string name="btn_5">5</string>
+    <string name="btn_6">6</string>
+    <string name="btn_7">7</string>
+    <string name="btn_8">8</string>
+    <string name="btn_9">9</string>
+    <string name="btn_clear">CLEAR</string>
+    <string name="note_100_default">100: 0</string>
+    <string name="note_10_default">10: 0</string>
+    <string name="note_1_default">1: 0</string>
+    <string name="note_20_default">20: 0</string>
+    <string name="note_2_default">2: 0</string>
+    <string name="note_500_default">500: 0</string>
+    <string name="note_50_default">50: 0</string>
+    <string name="note_5_default">5: 0</string>
+    <string name="note_format">%1$d: %2$d</string>
+    <string name="taka_prefix">Taka: %s</string>
+    <string name="taka_prefix_empty">Taka:</string>
+    <style name="KeypadButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_margin">@dimen/keypad_button_margin</item>
+        <item name="android:backgroundTint">@color/button_bg</item>
+        <item name="android:textColor">@color/button_text</item>
+        <item name="android:textSize">@dimen/text_size_keypad_button</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="NoteTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/note_text</item>
+        <item name="android:textSize">@dimen/text_size_note</item>
+        <item name="android:paddingTop">@dimen/note_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/note_padding_vertical</item>
+    </style>
+    <style name="Theme.VangtiChai" parent="Theme.AppCompat.Light.DarkActionBar">
+        
+        <item name="colorPrimary">@color/teal_primary</item>
+        <item name="colorPrimaryDark">@color/teal_primary_dark</item>
+        <item name="colorAccent">@color/teal_accent</item>
+        <item name="android:windowBackground">@color/app_background</item>
+    </style>
+</resources>
