@@ -1,0 +1,6 @@
+# Build outputs and cache files
+build/
+app/build/
+.gradle/
+.idea/
+local.properties
